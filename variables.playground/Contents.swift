@@ -40,8 +40,17 @@ print(customerAge)
 var anotherOptional = nameOptional
 print(anotherOptional)
 
-var a: Int? = 4
-a = nil
-if a == nil {
-    print("a is nil")
-}
+
+// var a: Int? = 4
+// a = nil
+// if a == nil {
+//     print("a is nil")
+// }
+
+var a: Int? = 0
+var b: Int = 4
+
+b = a!
+
+print(b)
+
