@@ -34,3 +34,14 @@ var nameOptional: String?
 print(nameNonOptional)
 print(nameOptional)
 
+var customerAge: Int!
+print(customerAge)
+
+var anotherOptional = nameOptional
+print(anotherOptional)
+
+var a: Int? = 4
+a = nil
+if a == nil {
+    print("a is nil")
+}
