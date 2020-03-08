@@ -47,10 +47,16 @@ print(anotherOptional)
 //     print("a is nil")
 // }
 
-var a: Int? = 0
+var a: Int? = 2
 var b: Int = 4
 
 b = a!
 
 print(b)
+
+let minutesDecimal = 100        // decimal
+let minutesBinary = 0b1100100   // binary
+let minutesOctal = 0o144        // octal
+let minutesHexadecimal = 0x64   // hexadecimal
+
 
