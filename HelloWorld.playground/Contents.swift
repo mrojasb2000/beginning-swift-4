@@ -19,3 +19,5 @@ var anyType: Any
 
 anyType = "Hello, Wordl"
 anyType = 3.14159
+
+var codePostal = "48108"
