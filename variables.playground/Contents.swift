@@ -13,7 +13,14 @@ var nameCountry = "United Kingdom"
 //print(country.1)
 //print(country.2)
 
-var country = (dialCode: 44, isoCode: "GB", name: "United kingdom")
-print(country.dialCode)
-print(country.isoCode)
-print(country.name)
+
+
+
+func getCountry() -> (dialCode: Int, isoCode: String, name: String) {
+    return (dialCode: 44, isoCode: "GB", name: "United kingdom")
+}
+
+let ret = getCountry()
+print("Dial Code   : ", ret.dialCode)
+print("ISO Code    : ", ret.isoCode)
+print("Country Name: ", ret.name)
