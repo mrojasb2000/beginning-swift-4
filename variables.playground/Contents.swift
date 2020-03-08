@@ -70,6 +70,20 @@ var minutesD = 0b110_000110_101000_00
 var balanceA = 10000.44556
 var balanceB = 10_000.44_556
 
+var smallNumber: Int8 = 3
+var mediumNumber: Int16 = Int16(smallNumber)
 
+var base2 = 0b101010
+var base10 = 42
+var hex = 0x2A
+
+print("Printing \(type(of:base2))")
+print("Printing \(type(of:base10))")
+print("Printing \(type(of:hex))")
+
+var scentific = 4.2E+7
+let double = 4.99993288828
+print("Printing \(type(of: scentific)):\(scentific)")
+print("Printing \(type(of: double)):\(double)")
 
 
