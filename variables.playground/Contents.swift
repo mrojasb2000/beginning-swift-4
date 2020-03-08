@@ -92,3 +92,19 @@ var roundToInt = Int(double.rounded())
 print("Printing \(type(of: castToInt)):\(castToInt)")
 print("Printing \(type(of: roundToInt)):\(roundToInt)")
 
+var bigUnsignedNumber: UInt64 = 18_000_000_000_000_000_000
+
+print("Printing \(type(of: bigUnsignedNumber)):\(bigUnsignedNumber)")
+
+var isChecked = false
+isChecked = true
+
+if isChecked {
+    // statements to execute if isChecked is true
+}
+if isChecked == true {
+    // statements to execute if isChecked is true
+}
+if !isChecked {
+    // statements to execute if isChecked is false
+}
