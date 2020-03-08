@@ -59,4 +59,17 @@ let minutesBinary = 0b1100100   // binary
 let minutesOctal = 0o144        // octal
 let minutesHexadecimal = 0x64   // hexadecimal
 
+var interestRate = 5.34
+
+print(interestRate)
+
+var minutesA = 100000
+var minutesB = 100_000
+var minutesC = 10_00_00
+var minutesD = 0b110_000110_101000_00
+var balanceA = 10000.44556
+var balanceB = 10_000.44_556
+
+
+
 
