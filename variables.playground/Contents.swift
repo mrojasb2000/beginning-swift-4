@@ -86,4 +86,9 @@ let double = 4.99993288828
 print("Printing \(type(of: scentific)):\(scentific)")
 print("Printing \(type(of: double)):\(double)")
 
+var castToInt = Int(double)
+var roundToInt = Int(double.rounded())
+
+print("Printing \(type(of: castToInt)):\(castToInt)")
+print("Printing \(type(of: roundToInt)):\(roundToInt)")
 
