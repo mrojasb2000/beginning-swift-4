@@ -108,3 +108,7 @@ if isChecked == true {
 if !isChecked {
     // statements to execute if isChecked is false
 }
+
+//let ch1:Character = "A"
+let ch1 = Character(UnicodeScalar(65))
+let ch2:Character = "😎"
