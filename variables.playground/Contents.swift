@@ -112,3 +112,4 @@ if !isChecked {
 //let ch1:Character = "A"
 let ch1 = Character(UnicodeScalar(65))
 let ch2:Character = "😎"
+let ch3 = "\u{1F601}"   //😁
